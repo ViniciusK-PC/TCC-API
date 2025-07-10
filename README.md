@@ -135,7 +135,10 @@ TODO: Add Production Runtime Demo, Create Professional Demo video with voice ove
 
 1. Add a new migration:
     ```sh
-    dotnet ef migrations add <MigrationName> --project UserManagement --startup-project UserManagement
+    1-
+dotnet ef migrations add nome_migration --project UserManagement.csproj
+2-
+Update-Database -verbose 
     ```
 
 2. Apply the migration to the database:
